@@ -1,0 +1,124 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #083a3a;
+}
+
+.body {
+  background-color: pink;
+  color: blue;
+
+}
+
+.siteHeader {
+  background-image: url('images/portfolioDesign.png');
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+
+}
+
+/* 
+
+
+
+*/
+
+
+body {
+  font-family: sans-serif;
+  background-color: #0f3f3b;
+  color: #e8f1ef;
+  line-height: 1.6;
+}
+
+img {
+  width: auto;
+  height: 300px;
+  display: block;
+  align-self: center;
+}
+
+
+.portfolio {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0px 25px 25px 25px;
+}
+
+
+.header {
+  text-align: center;
+  padding-bottom: 250px;
+  padding-top: 200px;
+  margin-top: 0px;
+
+}
+
+.subtitle {
+  font-size: 14px;
+  letter-spacing: 2px;
+  opacity: 0.7;
+}
+
+.title {
+  font-size: 100px;
+  font-weight: 300;
+  margin-top: 8px;
+}
+
+
+.projects {
+  display: grid;
+  grid-template-columns: 525px 525px;
+  gap: 50px 0px;
+  place-items: center;
+ 
+}
+
+.project.text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.project h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.projectType {
+  font-size: 14px;
+  opacity: 0.7;
+  margin: 5px 0 10px;
+}
+
+.description {
+  font-size: 15px;
+  max-width: 400px;
+}
+
+
+.footer {
+  text-align: center;
+  margin-top: 180px;
+}
+
+.tagline {
+  font-size: 15px;
+  opacity: 0.7;
+  max-width: 500px;
+  margin: 0 auto 30px;
+}
+
+.footer h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.footer a {
+  color: #e8f1ef;
+  text-decoration: underline;
+}
+
